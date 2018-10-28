@@ -6,7 +6,7 @@
   yum install -y python-setuptools
   python setup.py install
   pip install shadowsocks
-  shadowsocks
+  shadowsocks配置文件
   vi /etc/shadowsocks.json
        {
       "server":"0.0.0.0",
