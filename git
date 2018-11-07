@@ -1,0 +1,18 @@
+git bash只输入一次用户名密码:
+  git config --global credential.helper store
+别名设置：
+  vi /etc/bash.bashrc
+  alias s="git status"
+  alias a="git add"
+  alias pl="git pull"
+  alias ps="git push"
+  alias c="git commit"
+  alias l="git log"
+  alias m="git merge"
+  git config --global alias.'c' 'checkout'
+设置orgin
+  git remote add origin http://192.168.100.235:9797/john/git_test.git
+批量删除tag
+  git tag | grep "v" |xargs git tag -d
+推送非master分支到远程不用加url
+git branch --set-upstream-to=origin/test test
