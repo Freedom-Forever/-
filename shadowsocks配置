@@ -33,3 +33,16 @@
       chmod +x bbr.sh
       ./bbr.sh
       lsmod | grep bbr 验证：tcp_bbr
+      添加用户
+      wget -O add_vpn_user.sh https://raw.githubusercontent.com/hwdsl2/setup-ipsec-vpn/master/extras/add_vpn_user.sh
+      sudo sh add_vpn_user.sh 'username_to_add' 'password_to_add'
+      删除用户
+      wget -O del_vpn_user.sh https://raw.githubusercontent.com/hwdsl2/setup-ipsec-vpn/master/extras/del_vpn_user.sh
+      sudo sh del_vpn_user.sh 'username_to_delete'
+      用户信息 
+      vi/etc/ppp/chap-secrets
+      修改psk，重启服务
+      service ipsec restart
+      service xl2tpd restart
+      详见：
+      https://github.com/hwdsl2/setup-ipsec-vpn/blob/master/docs/manage-users-zh.md
