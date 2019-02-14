@@ -1,0 +1,8 @@
+tldr 
+     安装: pip install tldr
+     使用: tldr tar
+显示所有进程,不刷新:
+  top -b -n 1
+按内存排序
+  top后按M
+
