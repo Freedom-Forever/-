@@ -25,3 +25,11 @@
   https://pan.baidu.com/disk/home?#/all?vmode=list&path=%2F%E6%88%91%E7%9A%84%E8%B5%84%E6%BA%90%2Fshadowsocks
   https://pan.baidu.com/disk/home?#/all?vmode=list&path=%2F%E6%88%91%E7%9A%84%E8%B5%84%E6%BA%90%2Fshadowsocks
   
+  iphone: 
+      yum install wget
+      wget https://git.io/vpnsetup-centos -O vpnsetup.sh && sudo sh vpnsetup.sh
+      安装bbr
+      wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
+      chmod +x bbr.sh
+      ./bbr.sh
+      lsmod | grep bbr 验证：tcp_bbr
