@@ -46,3 +46,9 @@
       service xl2tpd restart
       详见：
       https://github.com/hwdsl2/setup-ipsec-vpn/blob/master/docs/manage-users-zh.md
+      
+      测速工具
+      wget https://raw.github.com/sivel/speedtest-cli/master/speedtest.py
+      chmod a+rx speedtest.py
+      mv speedtest.py /usr/local/bin/speedtest
+      chown root:root /usr/local/bin/speedtest
