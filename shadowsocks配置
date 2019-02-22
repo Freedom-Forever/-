@@ -54,3 +54,5 @@
       chown root:root /usr/local/bin/speedtest
       kcptun加速配置
       https://www.youtube.com/watch?v=E7QDuuAS82M&pbjreload=10
+      网速管理
+      yum install libpcap nethogs
