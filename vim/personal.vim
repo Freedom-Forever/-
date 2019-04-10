@@ -48,7 +48,7 @@ if has("gui_running")
 endif
 
 set cursorline
-set hlsearch
+set nohlsearch
 set number
 
 set splitbelow " 分割出来的窗口位于当前窗口下边/右边
