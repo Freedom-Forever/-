@@ -11,3 +11,5 @@ set hls is 高亮搜索,边搜索边匹配 highlightsearch incrementsearch
 nohlsearch 取反
 :e Ctrl-D 自动补全
 set fenc=  写入错误,转化错误的解决,置空
+set fencs=utf-8,gbk,utf-16,utf-32,ucs-bom 中文乱码
+:-1,-3t. 复制指定行到光标处
