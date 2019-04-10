@@ -65,6 +65,11 @@ set guioptions-=b
 
 "×¢ÊÍ
 map <C-M> <leader>c<Space>
+map <C-C> <C-insert>
+map <C-V> <s-insert>
+map <C-Z> u
+imap <C-C> <C-insert>
+imap <C-V> <s-insert>
 
 "NERDTreeÅäÖÃ
 autocmd FileType nerdtree setlocal relativenumber
