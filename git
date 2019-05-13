@@ -33,3 +33,31 @@ Unlink of file 'logs/upc-2018-12-03.0.log' failed. Should I try again? (y/n)
   git diff branch1 branch2 --stat
 从add状态撤回
   git add head .
+
+ alias s="git status"
+alias a="git add"
+alias pl="git pull"
+alias ps="git push"
+alias c="git commit -m"
+alias d="git diff"
+alias l="git log"
+alias fps="git add .;git commit -m 'fast push';git push"
+alias ovim="vi /d/gitWorkSpace/Learning/vim/command"
+alias ogit="vi /d/gitWorkSpace/Learning/git"
+alias odocker="vi /d/gitWorkSpace/Learning/docker"
+alias ojava="vi /d/gitWorkSpace/Learning/java"
+alias olinux="vi /d/gitWorkSpace/Learning/linux"
+alias cms="git checkout sp55_cms_controller"
+alias dev="git checkout td_develop"
+alias bo="git checkout bozhong1207_56"
+alias link="cd /d/gitWorkSpace/link"
+alias upc="cd /d/gitWorkSpace/upc"
+alias mas="git checkout td_master"
+alias st="git stash"
+alias stp="git stash pop"
+#alias ahk="/c/Program\ Files/AutoHotkey/AutoHotKey.exe"
+alias c:="cd /c;ls"
+alias d:="cd /d;ls"
+alias aahk="/c/Program\ Files/AutoHotkey/AutoHotKey.exe /c/Program\ Files/AutoHotkey/hotkey.ahk &"
+alias ahk="vim /c/Program\ Files/AutoHotkey/hotkey.ahk"
+ 
