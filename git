@@ -31,4 +31,5 @@ Unlink of file 'logs/upc-2018-12-03.0.log' failed. Should I try again? (y/n)
   git diff commit_id1 commit_id2 -- index.html
 比较两个分支哪些文件被改动
   git diff branch1 branch2 --stat
-
+从add状态撤回
+  git add head .
