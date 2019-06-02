@@ -28,11 +28,9 @@
   iphone: 
       yum install wget
       wget https://git.io/vpnsetup-centos -O vpnsetup.sh && sudo sh vpnsetup.sh
-      安装bbr
-      wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
-      chmod +x bbr.sh
-      ./bbr.sh
-      lsmod | grep bbr 验证：tcp_bbr
+
+      修改密钥
+      vi /etc/ppp/chap-secrets
       添加用户
       wget -O add_vpn_user.sh https://raw.githubusercontent.com/hwdsl2/setup-ipsec-vpn/master/extras/add_vpn_user.sh
       sudo sh add_vpn_user.sh 'username_to_add' 'password_to_add'
