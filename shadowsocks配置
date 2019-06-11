@@ -42,9 +42,11 @@
       修改psk，重启服务
       service ipsec restart
       service xl2tpd restart
+      
       详见：
       https://github.com/hwdsl2/setup-ipsec-vpn/blob/master/docs/manage-users-zh.md
-      
+      加密的密码，备份时用：
+      vi /etc/ipsec.d/passwd
       测速工具
       wget https://raw.github.com/sivel/speedtest-cli/master/speedtest.py
       chmod a+rx speedtest.py
